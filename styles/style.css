@@ -59,10 +59,9 @@
   line-height: 100%;
 }
 
-.card  {
+.card {
   background-color: #fff;
   border: 2px solid #000;
-  
 }
 
 .card__header {
@@ -80,7 +79,6 @@
   font-variation-settings: "wght" var(--main-font-weight);
   font-size: var(--main-font-size);
   line-height: 21px; 
-
 }
 
 .main {
@@ -228,7 +226,7 @@
   .card__label {
     -webkit-text-stroke: 1px #fff; 
     text-shadow: none;
-  }
+   }
 }
 
 
