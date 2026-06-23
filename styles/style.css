@@ -35,7 +35,8 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  min-block-size: 370px;
+  /*min-block-size: 370px;*/
+  min-block-size: clamp(327px, calc(4vw + 312px), 370px)
 }
 
 .container__clamp {
@@ -319,10 +320,7 @@ dialog::backdrop {
 
 @media (width <=375px) {
 
-  .header__background {
-    min-block-size: 327px;
-  }
-
+ 
   .main {
     gap: 49px;
   }
